@@ -1,0 +1,8 @@
+{
+  "boot_command_prefix": "<esc><wait>linux inst.text inst.ks=",
+  "boot_command_suffix": " bootdev=eth0 net.ifnames=0 console=tty0 utf8<enter>",
+  "rocky_version": "8.8",
+  "iso_checksum_sha256": "7b8bdfe189cf24ae5c2d6a88f7a0b5f3012d23f9332c47943d538b4bc03a3704",
+  "iso_url": "http://download.rockylinux.org/pub/rocky/8.8/isos/x86_64/Rocky-8.8-x86_64-dvd1.iso",
+  "date": "{{isotime \"20060102\"}}"
+}
