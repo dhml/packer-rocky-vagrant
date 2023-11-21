@@ -21,26 +21,26 @@ This Packer build generates a minimal Rocky Linux 8 or 9 core image using the `v
 3. Test the box locally:
 
     ```
-    vagrant box add --name rocky-9.2-core-20230522 rocky-9.2-core-20230522.box
-    vagrant init --minimal rocky-9.2-core-20230522
+    vagrant box add --name rocky-9.3-core-20231121 rocky-9.3-core-20231121.box
+    vagrant init --minimal rocky-9.3-core-20231121
     vagrant up
     # test here
     vagrant destroy -f
     rm -f Vagrantfile
-    vagrant box remove rocky-9.2-core-20230522
+    vagrant box remove rocky-9.3-core-20231121
     ```
 
-4. Upload the box to Vagrant Cloud: [dhml/rocky-9.2-core-20230522](https://app.vagrantup.com/dhml/boxes/rocky-9.2-core-20230522)
+4. Upload the box to Vagrant Cloud: [dhml/rocky-9.3-core-20231121](https://app.vagrantup.com/dhml/boxes/rocky-9.3-core-20231121)
 
 5. Test the box from Vagrant Cloud:
 
     ```
-    vagrant init --minimal dhml/rocky-9.2-core-20230522
+    vagrant init --minimal dhml/rocky-9.3-core-20231121
     vagrant up
     # test here
     vagrant destroy -f
     rm -f Vagrantfile
-    vagrant box remove dhml/rocky-9.2-core-20230522
+    vagrant box remove dhml/rocky-9.3-core-20231121
     ```
 
 6. Update box names/versions/URLs in Vagrantfiles in other repositories that reference this box.
